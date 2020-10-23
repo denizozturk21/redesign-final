@@ -5,10 +5,159 @@
     <title>INSERT TITLE HERE!</title>
     <link rel="stylesheet" href="index.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Redesign</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#context">Context</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#lc">Usability Analysis</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#lofi">Lo-Fi Prototype</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hifi">Hi-Fi Prototype</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#result">Results</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page lanidng-page">
+        <section id="context" class="portfolio-block block-intro" title="context">
+            <h1><strong>Context</strong></h1>
+            <div class="container">
+                <div class="about-me">
+                    <p>&nbsp;Brown Refugee Youth Tutoring and Enrichment(BRYTE) is the most populated club at Brown with over 190 people tutoring and same number of people getting tutored. I was working next to a friend who is in BRYTE. I saw her writing
+                        an extremely long Google Doc for explaining how remote tutoring works, and she said she was going to send it to all the tutees for reference. She also said BRYTE would rather put all their information on their website and have
+                        everyone access it publicly, but no one ever refers to their website.&nbsp;</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row no-gutters" style="width: 100%;height: auto;">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover" style="width: 33%;"><a href="#"><img class="img-fluid image" src="assets/img/nature/Screen%20Shot%202020-10-23%20at%203.53.54%20AM.png" style="width: 100%;height: auto;"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/Screen%20Shot%202020-10-23%20at%203.54.08%20AM.png"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/Screen%20Shot%202020-10-23%20at%203.53.36%20AM.png"></a></div>
+                </div>
+            </div>
+        </section>
+        <section id="lc" class="portfolio-block skills" title="Analysis">
+            <div class="container">
+                <div class="heading">
+                    <h1><strong>Usability + Accessibility</strong></h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Usability</h3>
+                                <ul>
+                                    <li>There are inconsistent fonts and text hierarchy. Fonts vary even under the same header and links are sometimes underlined and sometimes not.</li>
+                                    <li>Information hierarchy is unnecessarily complicated. There are an overwhelming number of buttons on the Navbar. Sometimes there are extra dropdowns within the dropdowns. Home button is redundant with logo.</li>
+                                    <li>For the amount of buttons on the Navbar, amount information on each page varies a lot. A whole page needs to be rendered to see two sentences sometimes.</li>
+                                    <li>It's unclear what some buttons do. For instance on a dropdown I saw an item called "Humans of BRYTE" and it took me to an Instagram page without giving any notice. I couldn't even go back to the BRYTE page without the
+                                        back button of the browser. Also, it's not good practice that when "About" is a dropdown, and you click on it the only information displayed is the first item in the dropdown, not all information under "About."&nbsp;</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Accessibility</h3>
+                                <ul>
+                                    <li>Some images are missing alternate text. It can be unclear what's going on for a person using a screen reader, since pages contain small amounts of information and images take up most of the space where they exist.</li>
+                                    <li>The same white background are used everywhere, and especially for some links the contrast of a light font with white makes it illegible.</li>
+                                    <li>Probably the biggest issue is for users on low bandwidths, since most tutees come from families living under poverty line. It's unfair to expect people who aren't budgeting their money on high speed internet to load
+                                        new HTML page for piece of information.</li>
+                                    <li>Navbar buttons are very wordy. There a lot of buttons on the Navbar, and some of them have Dropdowns with a lot of items too. For even native speakers it's hard to understand what piece of information they're about
+                                        to see or where could information they're looking for be. The language for browsing contains terms specific to the BRYTE community. The page will be used for people essentially looking for answers to questions starting
+                                        with "how," "what," or "who." The information itself can be grouped to serve this function.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lofi" class="portfolio-block website gradient" style="background: #ffffff;" title="lofi">
+            <section class="portfolio-block website gradient">
+                <div class="container">
+                    <h3 style="text-align: center;">Prototyping</h3>
+                    <p>I sketched my initial lo-fi prototype using Balsamiq. Then, I used Adobe XD to hi-fi wireframe and then was able to convert that into a Dreamweaver which helped a lot.</p>
+                </div>
+            </section>
+            <div class="container">
+                <h1 style="color: rgb(0,0,0);text-align: center;padding: 4%;">Low Fidelity Prototyping</h1>
+            </div>
+            <div class="container">
+                <div class="row no-gutters justify-content-center align-items-start" style="padding: 3%;">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/New%20Wireframe%201.png" style="opacity: 1;"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/New%20Wireframe%203.png" style="opacity: 1;"></a></div>
+                </div>
+                <div class="row no-gutters justify-content-center align-items-start" style="padding: 3%;">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/New%20Wireframe%203%20(1).png" style="opacity: 1;"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/New%20Wireframe%201%20(1).png" style="opacity: 1;"></a></div>
+                </div>
+                <div class="row no-gutters justify-content-center align-items-start" style="padding: 3%;">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/New%20Wireframe%202.png" style="opacity: 1;"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#" style="width: 100%;"><img class="img-fluid image" src="assets/img/tech/New%20Wireframe%202%20(1).png" style="opacity: 1;height: auto;min-height: 400px;min-width: 600px;"></a></div>
+                </div>
+            </div>
+        </section>
+        <section id="hifi" class="portfolio-block website gradient" style="background: #ffffff;" title="Hi-Fi">
+            <div class="container">
+                <h1 style="color: rgb(0,0,0);text-align: center;">High Fidelity Prototyping</h1>
+                <p style="color: rgb(0,0,0);">In this part I marked rows, columns, and Flexboxes on the bottom row only with pink lines. I used color contrasts matching with the Navbar on every page. The LinkedIn pages of coordinators, Navbar,&nbsp; and Youtube Video have pulse animation
+                    on hover to communicate responsiveness. Since we were supposed to focus on one page, I picked Who We Are to showcase frontmost. New links open in new tabs. Dropdown menus functional. Clicking on BRYTE logo will take the user to the
+                    main page. Elements on the website use Flexbox justify-content and max-width properties mostly to be responsive to screen sizes.</p>
+            </div>
+            <div class="container justify-content-center align-items-center">
+                <div class="row no-gutters d-table-row d-xl-flex justify-content-center align-content-center" style="padding: 3%;padding-right: 0px;padding-left: 0px;">
+                    <div class="col-md-6 col-lg-4 m-auto item zoom-on-hover"><a href="#"><img class="img-fluid justify-content-center image" src="assets/img/tech/Screen%20Shot%202020-10-23%20at%204.48.33%20AM.png" style="opacity: 1;min-width: 500px;height: auto;"></a></div>
+                    <div class="col-md-6 col-lg-4 justify-content-center align-items-center align-content-center item zoom-on-hover"><a href="#"><img class="img-fluid m-auto image" src="assets/img/tech/Screen%20Shot%202020-10-23%20at%204.36.18%20AM.png" style="opacity: 1;min-width: 500px;height: auto;"></a></div>
+                </div>
+                <div class="row no-gutters justify-content-center align-items-start" style="padding: 3%;">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid m-auto image" src="assets/img/tech/Screen%20Shot%202020-10-23%20at%204.17.38%20AM.png" style="opacity: 1;"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid m-auto image" src="assets/img/tech/Screen%20Shot%202020-10-23%20at%204.33.23%20AM.png" style="opacity: 1;"></a></div>
+                </div>
+                <div class="row no-gutters justify-content-center align-items-start" style="padding: 3%;">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/Screen%20Shot%202020-10-23%20at%204.18.33%20AM.png" style="opacity: 1;"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#" style="width: 100%;"><img class="img-fluid image" src="assets/img/tech/Screen%20Shot%202020-10-23%20at%204.44.22%20AM.png" style="opacity: 1;min-height: 400px;min-width: auto;height: 617.25px;width: auto;"></a></div>
+                </div>
+                <div class="row no-gutters justify-content-center align-items-start" style="padding: 3%;">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/Screen%20Shot%202020-10-23%20at%205.14.32%20AM.png" style="opacity: 1;"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#" style="width: 100%;"><img class="img-fluid image" src="assets/img/tech/Screen%20Shot%202020-10-23%20at%205.21.02%20AM.png" style="opacity: 1;min-height: 400px;min-width: auto;height: 617.25px;width: auto;"></a></div>
+                </div>
+                <div class="row no-gutters justify-content-center align-items-start" style="padding: 3%;width: 100%;max-width: 100%;height: auto;">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover" style="width: 100%;max-width: 100%;height: auto;"><a href="#"><img class="img-fluid image" src="assets/img/tech/Screen%20Shot%202020-10-23%20at%205.11.43%20AM.png" style="opacity: 1;width: 100%;min-width: 700px;"></a></div>
+                </div>
+                <div class="row no-gutters justify-content-center align-items-start" style="padding: 3%;width: 100%;max-width: 100%;height: auto;">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover" style="width: 100%;max-width: 100%;height: auto;"><a href="#"><img class="img-fluid image" src="assets/img/tech/visual%20design%20palette.001.jpeg" style="opacity: 1;width: 100%;min-width: 700px;"></a></div>
+                </div>
+            </div>
+        </section>
+        <section id="result" class="portfolio-block website gradient">
+            <div class="container">
+                <h1 style="text-align: center;">Results</h1>
+                <p class="text-center" style="color: rgb(255,255,255);">You can visit the website <a href="brownrefugeetutoring.org"><span style="text-decoration: underline;">here</span></a>. The site was actually deployed and filled with content upon request from BRYTE. Creator will remain anonymous until
+                    project is over.</p>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
   </body>
 </html>
